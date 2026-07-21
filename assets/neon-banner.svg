@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">r0b5k3f0 Player One Online</title>
+  <desc id="desc">Anime-inspired neon gaming banner with a futuristic city, stars, and a player silhouette.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0920"/>
+      <stop offset="0.55" stop-color="#20113d"/>
+      <stop offset="1" stop-color="#09243b"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffd866"/>
+      <stop offset="0.48" stop-color="#ff6ec7"/>
+      <stop offset="1" stop-color="#9a5cff"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff6ec7"/>
+      <stop offset="0.5" stop-color="#c4a7ff"/>
+      <stop offset="1" stop-color="#8be9fd"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="sunClip"><circle cx="940" cy="175" r="108"/></clipPath>
+    <pattern id="grid" width="42" height="24" patternUnits="userSpaceOnUse" patternTransform="skewX(-32)">
+      <path d="M42 0H0V24" fill="none" stroke="#8be9fd" stroke-opacity=".2" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#sky)"/>
+
+  <g fill="#fff">
+    <circle cx="76" cy="48" r="1.5"/><circle cx="156" cy="81" r="1"/><circle cx="264" cy="42" r="1.2"/>
+    <circle cx="386" cy="74" r="1.5"/><circle cx="535" cy="36" r="1"/><circle cx="674" cy="68" r="1.3"/>
+    <circle cx="794" cy="31" r="1"/><circle cx="1084" cy="53" r="1.5"/><circle cx="1140" cy="101" r="1"/>
+  </g>
+  <g fill="#8be9fd" filter="url(#glow)">
+    <circle cx="112" cy="128" r="2"/><circle cx="724" cy="116" r="2"/><circle cx="1118" cy="162" r="2"/>
+  </g>
+
+  <circle cx="940" cy="175" r="108" fill="url(#sun)" opacity=".95" filter="url(#glow)"/>
+  <g clip-path="url(#sunClip)" stroke="#23133e" stroke-width="7" opacity=".72">
+    <path d="M820 126h240M816 150h248M812 178h256M815 211h250M823 247h234"/>
+  </g>
+
+  <path d="M0 280L110 247l48 16 105-54 69 38 77-22 92 57 111-42 78 31 104-61 76 35 116-30 104 42 110-31v134H0z" fill="#0b1026"/>
+  <g fill="#151638">
+    <path d="M28 264h66v96H28zM112 286h44v74h-44zM182 246h81v114h-81zM285 274h56v86h-56zM371 237h74v123h-74zM472 271h102v89H472zM601 252h68v108h-68zM699 276h55v84h-55zM785 238h86v122h-86zM997 269h62v91h-62zM1080 248h91v112h-91z"/>
+  </g>
+  <g fill="#ff6ec7" opacity=".8">
+    <path d="M42 280h9v4h-9zm27 18h12v4H69zm128-27h14v4h-14zm37 31h10v4h-10zm151-41h12v4h-12zm24 23h17v4h-17zm82 9h13v4h-13zm42-17h12v4h-12zm84-3h15v4h-15zm105 24h12v4h-12zm91-31h16v4h-16zm213 17h15v4h-15zm48-18h12v4h-12z"/>
+  </g>
+  <g fill="#8be9fd" opacity=".75">
+    <path d="M44 315h16v4H44zm163 7h12v4h-12zm98-25h14v4h-14zm86 28h18v4h-18zm117-13h12v4h-12zm117 9h18v4h-18zm185-49h16v4h-16zm214 31h15v4h-15zm81 17h18v4h-18z"/>
+  </g>
+
+  <path d="M0 306h1200v54H0z" fill="url(#grid)"/>
+  <path d="M0 306h1200" stroke="#8be9fd" stroke-opacity=".42"/>
+
+  <!-- Original anime-inspired player silhouette -->
+  <g transform="translate(102 74)">
+    <path d="M77 43c-21 5-33 22-31 43 2 13 8 23 18 30l-7 32-31 39 19 11 25-27 4 86h64l4-87 27 28 19-13-35-41-9-31c11-8 17-20 17-34 0-22-15-39-37-42-15-18-34-27-51-21 9 4 14 11 14 20-5-3-10-2-10 7z" fill="#090b1c"/>
+    <path d="M66 81c15 7 42 8 62-2" fill="none" stroke="#ff6ec7" stroke-width="4" filter="url(#glow)"/>
+    <path d="M78 101h13m14 0h13" stroke="#8be9fd" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M66 150c24 11 50 10 75-1" fill="none" stroke="#c4a7ff" stroke-width="3"/>
+    <path d="M57 148l-23 22m108-22 24 22" stroke="#8be9fd" stroke-width="4" filter="url(#glow)"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="330" y="118" fill="#8be9fd" font-size="18" letter-spacing="5">PLAYER ONE // ONLINE</text>
+    <text x="326" y="205" fill="url(#name)" font-size="72" font-weight="800" letter-spacing="3" filter="url(#glow)">r0b5k3f0</text>
+    <text x="332" y="244" fill="#e6ddff" font-size="19" letter-spacing="3">QUEST HUNTER • WORLD EXPLORER</text>
+    <rect x="331" y="267" width="296" height="28" rx="14" fill="#151638" stroke="#ff6ec7" stroke-opacity=".8"/>
+    <circle cx="350" cy="281" r="5" fill="#63f5aa" filter="url(#glow)"/>
+    <text x="365" y="287" fill="#d9fdf0" font-size="14" letter-spacing="2">READY FOR THE NEXT ADVENTURE</text>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="21" fill="none" stroke="url(#name)" stroke-width="3" opacity=".8"/>
+</svg>
