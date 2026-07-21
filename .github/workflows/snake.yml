@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile cards and contribution snake
 
 on:
   schedule:
@@ -16,7 +16,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate dependency-free player cards
+        run: python scripts/generate_stats.py
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          OUTPUT_DIR: dist
+
+      - name: Generate contribution snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -24,10 +33,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ff6ec7
 
-      - name: Publish to output branch
+      - name: Publish generated files to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
-          branch: output
+          target_branch: output
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
