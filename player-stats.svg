@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="190" viewBox="0 0 480 190" role="img" aria-labelledby="title desc">
+<title id="title">r0b5k3f0 GitHub player stats</title>
+<desc id="desc">Public repositories, followers, following, and account age.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#20113d"/></linearGradient>
+  <linearGradient id="line"><stop stop-color="#ff6ec7"/><stop offset=".5" stop-color="#c4a7ff"/><stop offset="1" stop-color="#8be9fd"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1.5" y="1.5" width="477" height="187" rx="14" fill="url(#bg)" stroke="url(#line)" stroke-width="3"/>
+<text x="24" y="36" fill="#8be9fd" font-family="ui-monospace,monospace" font-size="12" letter-spacing="2">PLAYER DATA // LIVE</text>
+<text x="24" y="62" fill="#f2ecff" font-family="ui-monospace,monospace" font-size="20" font-weight="700">@r0b5k3f0</text>
+<circle cx="447" cy="31" r="5" fill="#63f5aa" filter="url(#glow)"/>
+<g transform="translate(24 91)">
+<text x="0" y="0" fill="#ff6ec7" font-family="ui-monospace,monospace" font-size="25" font-weight="800">8</text>
+<text x="0" y="22" fill="#9da7b3" font-family="ui-monospace,monospace" font-size="9" letter-spacing=".6">PUBLIC REPOS</text>
+</g>
+<g transform="translate(137 91)">
+<text x="0" y="0" fill="#8be9fd" font-family="ui-monospace,monospace" font-size="25" font-weight="800">0</text>
+<text x="0" y="22" fill="#9da7b3" font-family="ui-monospace,monospace" font-size="9" letter-spacing=".6">FOLLOWERS</text>
+</g>
+<g transform="translate(250 91)">
+<text x="0" y="0" fill="#c4a7ff" font-family="ui-monospace,monospace" font-size="25" font-weight="800">0</text>
+<text x="0" y="22" fill="#9da7b3" font-family="ui-monospace,monospace" font-size="9" letter-spacing=".6">FOLLOWING</text>
+</g>
+<g transform="translate(363 91)">
+<text x="0" y="0" fill="#63f5aa" font-family="ui-monospace,monospace" font-size="25" font-weight="800">107</text>
+<text x="0" y="22" fill="#9da7b3" font-family="ui-monospace,monospace" font-size="9" letter-spacing=".6">DAYS ONLINE</text>
+</g>
+<path d="M24 142H456" stroke="#30364d"/>
+<text x="24" y="169" fill="#7d8590" font-family="ui-monospace,monospace" font-size="10">AUTO-SYNC • 2026-09-05 07:43 UTC</text>
+<text x="456" y="169" text-anchor="end" fill="#ff6ec7" font-family="ui-monospace,monospace" font-size="10">STATUS: ONLINE</text>
+</svg>
