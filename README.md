@@ -77,8 +77,8 @@ status: "One more quest..."
 <div align="center">
   <img height="190" src="https://raw.githubusercontent.com/r0b5k3f0/r0b5k3f0/output/player-stats.svg" alt="GitHub player stats" />
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=r0b5k3f0&hide_border=true&background=0D1117&ring=FF6EC7&fire=FFD866&currStreakLabel=8BE9FD&sideLabels=C4A7FF&dates=7D8590&currStreakNum=E6EDF3&sideNums=E6EDF3" />
-    <img height="190" src="https://github-readme-streak-stats.herokuapp.com?user=r0b5k3f0&hide_border=true&background=FFF7FC&ring=C83D95&fire=D38A00&currStreakLabel=397F9D&sideLabels=7556A8&dates=6E6872&currStreakNum=322B3A&sideNums=322B3A" alt="GitHub streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=r0b5k3f0&hide_border=true&background=0D1117&ring=FF6EC7&fire=FFD866&currStreakLabel=8BE9FD&sideLabels=C4A7FF&dates=7D8590&currStreakNum=E6EDF3&sideNums=E6EDF3" />
+    <img height="190" src="https://streak-stats.demolab.com/?user=r0b5k3f0&hide_border=true&background=FFF7FC&ring=C83D95&fire=D38A00&currStreakLabel=397F9D&sideLabels=7556A8&dates=6E6872&currStreakNum=322B3A&sideNums=322B3A" alt="GitHub streak" />
   </picture>
 </div>
 
